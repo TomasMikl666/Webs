@@ -2,15 +2,34 @@ h1 {
     color: red;
     font-size: 40px;
     text-align: center;
+    text-shadow: 10px 10px 40px red;
+    border : 1px solid;
 }
 
 p {
     font-family: Georgia,Tahoma, Verdana,sans-serif;
     font-weight: 600;
     text-align: justify;
+    border: 3px solid red ;
+    
 }
 
 img{
     width: 300px;
     border-radius: 20px;
+    box-shadow: 5px 5px 40px rgb(233, 22, 22);
+}
+a{
+    text-decoration: none;
+    background: red;
+    color:white;
+}
+.first{
+    color:red;
+}
+.second{
+    color: blue;
+}
+#nadpis1{
+    color:aquamarine;
 }

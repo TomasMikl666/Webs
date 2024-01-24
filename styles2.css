@@ -1,0 +1,19 @@
+h1 {
+    border: 5px red;
+}
+
+.container{
+    text-align: left;
+    border: 2px solid red;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #8fafe3;
+}
+.zobrazeni{
+    display:inline-block;
+    border:2px solid red;
+    margin:10px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
