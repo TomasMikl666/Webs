@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Vypne floatovani*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+a{
+    text-decoration: none;
+    color:rgb(15, 88, 110);
+    background: rgb(136, 175, 43);
+    padding: 2px;
+    border-radius: 5px;
+
+}
+a:hover{
+    color:rgb(136, 175, 43);
+    background: rgb(15, 88, 110);
+    
+}
+
+h1{
+    background: blue;
+    width:300px;
+    border: 3px solid green;
+    position: fixed;
+    top:0px;
+    left: 0px;
+}
+.date{
+    text-align: right;
+    position: relative;
+    top:-29px
+}
+
+.pozicovani{
+    position: absolute;
+
+}
+.firstP{
+    margin-top: 40px;
+}
+
+p{
+    color: blue;
+    font-size: 40px;
+}
