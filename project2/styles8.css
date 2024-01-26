@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Vypne floatovani*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+nav{
+    background: rgb(175, 75, 39);
+    height: 54px;
+    width: 100%;
+    
+    
+}
+nav ul{
+    width:100%;
+    height: 53px;
+    margin-left: 450px;
+    
+}
+nav ul li {
+    width: 150px;
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    line-height: 53px;
+    font-size: 20px;
+    vertical-align: middle;
+}
+nav ul li a{
+    color:rgb(230, 213, 139);
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgb(190, 172, 91);
+}
+
+.firstphoto{
+    background: rgb(110, 45, 22);
+}
+.firstphoto img{
+    display:block;
+    margin: 0px auto;
+    position: relative;
+    top: 75px;
+}
+
+main h2{
+    
+}
