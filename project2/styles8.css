@@ -51,5 +51,33 @@ nav ul li a:hover{
 }
 
 main h2{
+    text-align: center;
+    font-size: 26px;
+    margin-top: 120px;
     
+}
+main h2 span{
+    font-size: 60px;
+}
+
+.section1 img{
+    display: block;
+    width: 400px;
+    margin: 0px auto;
+    transform: rotate(15deg);
+}
+.section2 h2{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 0px;
+}
+/* Patička */
+footer{
+    background: rgb(175, 75, 39);
+    color:rgb(230, 213, 139);
+}
+
+.macbook-text{
+    font-size: 40px;
+    margin: 120px auto;
 }
