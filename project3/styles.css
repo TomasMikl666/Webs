@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Vypne floatovani*/
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+ /**** header ****/
+header{
+    background: linear-gradient(90deg,rgba(29, 168, 1, 0.5),rgba(168, 153, 153, 0.5),rgba(151, 31, 31, 0.5)),url("assets/pizza.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.header-text{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+.header-text h1{
+    color: #fff;
+    font-size: 47px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 3px;
+}
+.btn{
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px 10px;
+    letter-spacing: 1px;
+    margin-top:20px;
+}
+.btn-full{
+    background: white;
+}
+.btn-empty{
+    margin-left: 10px;
+}
