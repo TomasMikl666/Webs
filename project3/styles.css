@@ -41,9 +41,23 @@ header{
     letter-spacing: 1px;
     margin-top:20px;
 }
-.btn-full{
+.btn-full:link,
+.btn-full:visited {
     background: white;
 }
-.btn-empty{
+.btn-full:hover,
+.btn-full:active{
+    background: red;
+    border: 1px solid red
+}
+
+.btn-empty:link,
+.btn-empty:visited{
     margin-left: 10px;
+}
+
+.btn-empty:hover,
+.btn-empty:active{
+    background: red;
+    border: 1px solid red
 }
