@@ -19,7 +19,7 @@
 
  /**** header ****/
 header{
-    background: linear-gradient(90deg,rgba(29, 168, 1, 0.5),rgba(168, 153, 153, 0.5),rgba(151, 31, 31, 0.5)),url("assets/pizza.jpg");
+    background: linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("assets/pizza.jpg");
     background-size: cover;
     height: 100vh;
 }
@@ -28,7 +28,7 @@ header{
     height: 200px;
     position: absolute;
     top: 2%;
-    left: 45%;
+    left: 10%;
 }
 nav ul{
     float: right;
@@ -40,11 +40,18 @@ nav ul li {
     margin-left:10px;
     margin-right: 10px; 
 }
-nav ul li a{
+nav ul li a:link,
+nav ul li a:visited {
     color: #fff;
     font-size: 30px;
     text-decoration: none;
+    border-bottom: 2px solid transparent;
       
+}
+nav ul li a:hover,
+nav ul li a:active{
+    transition: border-bottom 1s;
+    border-bottom: 1px solid #135c19;
 }
 .header-text{
     position: absolute;
@@ -61,10 +68,10 @@ nav ul li a{
 }
 .btn{
     display: inline-block;
-    color: black;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-size: 20px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(158, 106, 9);
     border-radius: 10px;
     padding: 5px 10px;
     letter-spacing: 1px;
@@ -72,22 +79,47 @@ nav ul li a{
 }
 .btn-full:link,
 .btn-full:visited {
-    background: white;
+    background: rgb(51, 197, 6);
 }
 .btn-full:hover,
 .btn-full:active{
-    background: red;
-    border: 1px solid red
+    background: linear-gradient(90deg,rgb(47, 255, 5),rgb(255, 255, 255),rgb(255, 0, 0));
+    border: 1px solid rgb(158, 106, 9);
 }
 
 .btn-empty:link,
 .btn-empty:visited{
     margin-left: 10px;
+    background: rgb(216, 203, 19);
 }
 
 .btn-empty:hover,
 .btn-empty:active{
-    background: red;
-    border: 1px solid red
+    background: linear-gradient(90deg,rgb(47, 255, 5),rgb(255, 255, 255),rgb(255, 0, 0));
+    border: 1px solid rgb(158, 106, 9);
 }
+ /**** header ****/
 
+/***** About us ****/
+.heading-main h2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    
+}
+.heading-main h2:after {
+    content:"";
+    display:block;
+    width: 150px;
+    border-bottom: 20px solid #135c19;
+    margin: 0px auto;
+}
+.pizza-example img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px black;
+
+}
+main{
+    background:linear-gradient(90deg,rgba(29, 168, 1, 0.5),rgba(168, 153, 153, 0.5),rgba(151, 31, 31, 0.5));
+}
