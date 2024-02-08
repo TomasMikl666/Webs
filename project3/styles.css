@@ -5,10 +5,14 @@
 }
 
 /*Vypne floatovani*/
+.clearfix {zoom:1}
 .clearfix:after{
-    content: "";
-    display: table;
+    content: ".";
+    display: block;
     clear: both;
+    height: 0;
+    visibility: hidden;
+
 }
 
 /**** reusable ****/
@@ -98,10 +102,12 @@ nav ul li a:active{
     background: linear-gradient(90deg,rgb(47, 255, 5),rgb(255, 255, 255),rgb(255, 0, 0));
     border: 1px solid rgb(158, 106, 9);
 }
+/**** main *****/
+main{
+    background:linear-gradient(90deg,rgba(29, 168, 1, 0.5),rgba(168, 153, 153, 0.5),rgba(151, 31, 31, 0.5));
+}
  /**** header ****/
-
-/***** About us ****/
-.heading-main h2{
+ .heading-main h2{
     text-align: center;
     margin-top: 20px;
     font-size: 30px;
@@ -114,12 +120,69 @@ nav ul li a:active{
     border-bottom: 20px solid #135c19;
     margin: 0px auto;
 }
+/***** About us ****/
 .pizza-example img {
     width: 100%;
     border-radius: 10px;
     box-shadow: 4px 6px 10px black;
 
 }
-main{
-    background:linear-gradient(90deg,rgba(29, 168, 1, 0.5),rgba(168, 153, 153, 0.5),rgba(151, 31, 31, 0.5));
+
+/****** our pizza ****/
+.pizza-info img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 4px 6px 10px black;
+    
+}
+.text-pizza{
+    margin-bottom: 20px;
+    margin-top: 20px;
+} 
+.text-pizza div{
+    width: 50px;
+    height: 50px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50%;
+    padding: 12.5px;
+    float: left;
+}
+.text-pizza p{
+    margin-left: 60px;
+    font-size: 20px;
+}
+
+/***** References ******/
+.reference{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/pizza5.jpg);
+}
+.reference h2{
+    color: #fff;
+    padding-top:40px ;
+}
+.reference h2:after{
+    border-bottom: 2px solid #fff;
+}
+.one-reference{
+    color: #fff;
+    font-size: 20px;
+}
+.one-reference p{
+    font-style: italic;
+}
+.photo-name {
+    margin-top: 20px ;
+    margin-bottom: 60px;
+    
+}
+.photo-name p{
+    padding: 12.5px;
+    margin-left: 60px;
+    font-style: normal;
+}
+.photo-name img{
+    width: 50px;
+    border-radius: 50%;
+    float: left;
 }
