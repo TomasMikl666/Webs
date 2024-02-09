@@ -186,3 +186,22 @@ main{
     border-radius: 50%;
     float: left;
 }
+/**** photo gallery *****/
+.photo-segment li {
+    list-style-type: none;
+    background-color: #000;
+    overflow: hidden;
+    height: 300px;
+    
+}
+.photo-segment img{
+    width: 100%;
+    height: 300px;
+    opacity: 0.5;
+    transform: scale(1.15);
+}
+.photo-segment img:hover{
+    transition: transform 0.5s, opacity 0.5s;
+    transform: scale(1);
+    opacity: 1;
+}
