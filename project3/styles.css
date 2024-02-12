@@ -26,6 +26,7 @@ header{
     background: linear-gradient(90deg,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("assets/pizza.jpg");
     background-size: cover;
     height: 100vh;
+    background-attachment: fixed;
 }
 #logo img{
     width: 200px;
@@ -156,6 +157,7 @@ main{
 /***** References ******/
 .reference{
     background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/pizza5.jpg);
+    background-attachment: fixed;
 }
 .reference h2{
     color: #fff;
@@ -204,4 +206,90 @@ main{
     transition: transform 0.5s, opacity 0.5s;
     transform: scale(1);
     opacity: 1;
+}
+/***** Kontakt *****/
+.formular{
+    background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/pizza4.jpg);
+    background-attachment: fixed;
+}
+.formular h2{
+    color:white;
+    padding-top:40px ;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+.contact-form{
+    width: 100%;
+    text-align: center;
+    
+    
+}
+.contact-form input{
+    width: 20%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: Arial;
+    font-size: 20px;
+    margin-bottom: 15px;
+    
+}
+.contact-form textarea{
+    width: 20%;
+    margin: 5px 0px;
+    padding: 7px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px grey;
+    font-family: Arial;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.contact-form input[type="submit"]{
+    background-color: rgb(184, 156, 30);
+    color: white;
+    font-size: 20px
+    
+    
+}
+.contact-form input[type="submit"]:hover{
+    background-color: rgb(221, 181, 5);
+    color: whitesmoke;
+    transition:background-color 0.5s;
+}
+/**** Footer ******/
+.footer-page{
+    background:linear-gradient(90deg,rgba(29, 168, 1, 0.5),rgba(168, 153, 153, 0.5),rgba(151, 31, 31, 0.5));
+    
+    color: #fff;
+}
+.social{
+    text-align: center;
+    margin: 10px 0;
+}
+.social p{
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.social p a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.social p a:link,
+.social p a:visited{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.social p a:hover,
+.social p a:active{
+    color: black;
+}
+.footer-text{
+    text-align: center;
+    margin: 10px 0;
 }
