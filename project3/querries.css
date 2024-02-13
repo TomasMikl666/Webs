@@ -1,0 +1,28 @@
+@media only screen and (max-width: 1185px){
+    .photo-segment{
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    .row{
+        width: auto;
+    }
+}
+@media only screen and (max-width: 750px){
+    .photo-segment{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .photo-segment .col{
+        margin-left: 0px;
+    }
+    .photo-segment li {
+        width: 100%;
+
+    }
+    .photo-gallery .row{
+        width: auto;
+        
+    }
+
+}
