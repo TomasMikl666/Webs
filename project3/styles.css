@@ -82,6 +82,7 @@ nav ul li a:active{
     padding: 5px 10px;
     letter-spacing: 1px;
     margin-top:20px;
+    
 }
 .btn-full:link,
 .btn-full:visited {
@@ -136,7 +137,6 @@ main{
     width: 100%;
     border-radius: 10px;
     box-shadow: 4px 6px 10px black;
-    
 }
 .text-pizza{
     margin-bottom: 20px;

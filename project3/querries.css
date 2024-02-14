@@ -1,12 +1,60 @@
+
 @media only screen and (max-width: 1185px){
     .photo-segment{
         margin-left: 20px;
-        margin-right: 20px;
-        
+        margin-right: 20px;        
     }
     .row{
         width: auto;
     }
+    .col.span-1-of-3.one-reference{
+        width: 44%;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    .one-reference:nth-child(3){
+        display:none
+    }
+    /*** about us***/
+    .pizza-example .span-1-of-2 {
+        width: 46%;
+    }
+    .pizza-example .col{
+        margin-left: 0;
+    }
+    .pizza-example img{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    .pizza-info img {
+        margin-left: 2%;
+    }
+}
+@media only screen and (max-width: 1000px){
+    /*** Our pizza ****/
+    .pizza-info .span-1-of-2{
+        width:92%;
+    }
+    .pizza-info img{
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+    .text-pizza p{
+        padding-top: 12px;
+    }
+    .pizza-example img {
+        margin-left: 8%;
+        margin-right: 8%;
+    }
+
+}
+@media only screen and (max-width: 900px) {
+    /*** Our pizza ****/
+    .text-pizza p{
+        padding-top: 8px;
+    }
+    
 }
 @media only screen and (max-width: 750px){
     .photo-segment{
@@ -24,5 +72,60 @@
         width: auto;
         
     }
+    /**** about us ****/
+    .pizza-example .span-1-of-2 {
+        width: 92%;
+    }
+    .pizza-example .col{
+        margin-left: 0;
+    }
+    .pizza-example img{
+        margin-left: 4%;
+        margin-right: 4%;
 
+    }
+}
+@media only screen and (max-width: 730px){
+    /***header***/
+    .header-text {
+        width: 100%;
+        left:0%;
+        transform: translate(0%,0%);
+    }
+    .header-text h1{
+        text-align: center;
+    }
+    .btn{
+        display:block;
+        text-align: center;
+        width: 50%;
+        
+        padding: 2%;
+        
+    }
+    .btn-full:link,
+    .btn-full:visited{
+        margin-left: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+    .btn-empty:link,
+    .btn-empty:visited{
+        margin-left: 10px;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+}
+@media only screen and (max-width: 685px){
+    .col.span-1-of-3.one-reference{
+        width: 100%;
+        margin-left: 20px;
+        margin-right: 20px;
+        
+    }
+    .photo-name{
+        float:right;
+        margin-right: 25px;
+    }
 }
