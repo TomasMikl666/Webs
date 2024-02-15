@@ -3,43 +3,54 @@
 
 <head>
     <meta charset="utf-8">
+    <!-- zoom 100% -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- links -->
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="grid/grid.css">
     <link rel="stylesheet" href="querries.css">
+
     <title>Pizza Mnam</title>
     <link rel="icon" type="image/icon" href="assets/favicon.ico">
+    
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+
 </head>
 <body>
     <header>
+        <div class="nav-background">
 
+        </div>
         <div class="nav-bar row">
             <div id="logo">
-                <img src="assets/pizzalogo.png" alt="logo">
+                <!-- <img src="assets/pizzalogo.png" alt="logo"> -->
             </div>
 
             <nav>
                 <ul>
-                    <li><a href="#">Jedna</a></li>
-                    <li><a href="#">Jedna</a></li>
-                    <li><a href="#">Jedna</a></li>
-                    <li><a href="#">Jedna</a></li>
-                    <li><a href="#">Jedna</a></li>
+                    <li><a href="#" class="jq--scroll-our-pizza">Naše pizza</a></li>
+                    <li><a href="#" class="jq--scroll-about-pizza">O naší pizze</a></li>
+                    <li><a href="#" class="jq--scroll-reference-pizza">Reference</a></li>
+                    <li><a href="#" class="jq--scroll-fotogalery-pizza">Fotogalerie</a></li>
+                    <li><a href="#" class="jq--scroll-contact-pizza">Kontakt</a></li>
                 </ul>
             </nav>
         </div>
 
         <div class="header-text">
             <h1>Nejlepší Pizza v České Republice</h1>
-            <a href="#" class="btn btn-full">První tlačítko</a>
-            <a href="#" class="btn btn-empty">Druhé tlačítko</a>
+            <a href="#" class="btn btn-full jq--scroll-button-first">První tlačítko</a>
+            <a href="#" class="btn btn-empty jq--scroll-button-second">Druhé tlačítko</a>
         </div>
 
     </header>
 
     <main>
 
-        <section class="about-us row">
+        <section class="about-us row jq--our-pizza">
             <div class="heading-main">
                 <h2>Naše Pizza</h2>
             </div>
@@ -56,7 +67,7 @@
             </div>
         </section>
 
-        <section class="our-pizza row">
+        <section class="our-pizza row jq--about-pizza">
 
             <div class="heading-main">
                 <h2>O naší pizze</h2>
@@ -95,7 +106,7 @@
             </div>
         </section>
 
-        <section class="reference">
+        <section class="reference jq--reference-pizza">
             <div class="heading-main">
                 <h2> Co o nás řekli naši zákazníci</h2>
             </div>
@@ -130,10 +141,10 @@
             </div>
         </section>
 
-        <section class="photo-gallery">
+        <section class="photo-gallery jq--fotogalery-pizza">
 
-            <div class="heading-main">
-                <h2>CO u nás můžete ochutnat</h2>
+            <div class="heading-main gallery-nadpis" >
+                <h2>Co u nás můžete ochutnat</h2>
             </div>
 
             <div class="photos row">
@@ -157,7 +168,7 @@
 
         </section>
         
-        <section class="formular">
+        <section class="formular jq--contact-pizza">
 
             <div class="heading-main">
                 <h2>Zeptejte se nás</h2>

@@ -28,6 +28,14 @@ header{
     height: 100vh;
     background-attachment: fixed;
 }
+.nav-background{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 50;
+    border-bottom: 2px solid rgba(139, 136, 136, 0.5);
+}
 #logo img{
     width: 200px;
     height: 200px;
@@ -37,7 +45,10 @@ header{
 }
 nav ul{
     float: right;
-    margin-top: 40px;
+    margin-top: 7px;
+    position: fixed;
+    margin-left: 21%;
+    z-index: 100;
 }
 nav ul li {
     display: inline-block;
@@ -113,9 +124,10 @@ main{
  /**** header ****/
  .heading-main h2{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 50px;
     font-size: 30px;
     margin-bottom: 20px;
+    
 }
 .heading-main h2:after {
     content:"";
@@ -163,7 +175,7 @@ main{
 }
 .reference h2{
     color: #fff;
-    padding-top:40px ;
+    padding-top:50px ;
 }
 .reference h2:after{
     border-bottom: 2px solid #fff;
@@ -193,7 +205,9 @@ main{
     float: left;
 }
 /**** photo gallery *****/
-
+.gallery-nadpis{
+    padding-top: 10px;
+}
 .photo-segment li {
     list-style-type: none;
     background-color: #000;
@@ -216,6 +230,7 @@ main{
     opacity: 1;
 }
 /***** Kontakt *****/
+
 .formular{
     background:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/pizza4.jpg);
     background-attachment: fixed;
