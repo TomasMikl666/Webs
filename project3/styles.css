@@ -40,8 +40,9 @@ header{
     width: 200px;
     height: 200px;
     position: absolute;
-    top: 2%;
-    left: 10%;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 nav ul{
     float: right;
@@ -136,6 +137,14 @@ main{
     border-bottom: 20px solid #135c19;
     margin: 0px auto;
 }
+/**** mobile navigation ****/
+.mobile-nav-icon{
+    float: right;
+    margin-top: 5px;
+    display: none;
+}
+
+
 /***** About us ****/
 .pizza-example img {
     width: 100%;

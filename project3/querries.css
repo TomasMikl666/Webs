@@ -47,6 +47,35 @@
         margin-left: 8%;
         margin-right: 8%;
     }
+    .nav ul li {
+        display: block;
+        
+    }
+    .nav-background{
+        display:none;
+    }
+    .mobile-nav-back{
+        height: 200px;
+        width: 100%;
+        position: fixed;
+        background-color: rgba(0,0,0,0.7);
+        border-bottom: 2px solid grey;
+        display: none;
+        z-index: 400;
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+        z-index: 200;
+        position: fixed;
+        right: 2%;
+        z-index: 401;
+    }
+    nav ul{
+        display: none;
+        margin-right: 400px;
+        z-index: 401;
+        
+    }
 
 }
 @media only screen and (max-width: 900px) {
@@ -115,6 +144,12 @@
         margin-left: 25%;
         margin-right: 25%;
     }
+    nav ul{
+        display: none;
+        margin-right: 300px;
+        z-index: 401;
+        
+    }
 
 }
 @media only screen and (max-width: 685px){
@@ -129,3 +164,19 @@
         margin-right: 25px;
     }
 }
+@media only screen and (max-width: 575px){
+    nav ul{
+        display: none;
+        margin-right: 220px;
+        z-index: 401;
+        
+    }
+}
+@media only screen and (max-width: 475px){
+    nav ul{
+        display: none;
+        margin-right: 100px;
+        z-index: 401;   
+        }
+}
+

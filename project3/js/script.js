@@ -31,5 +31,26 @@
             $("html, body").animate({scrollTop: $(".jq--reference-pizza").offset().top}, 1400);
         });
 
+        /* Mobile navigations */
+        $(".jq--nav-icon").click(function(){
+
+            
+            $(".mobile-nav-back").fadeToggle();
+            $("nav ul").fadeToggle();
+
+        });
+
+        $(".jq--image-menu").click(function(){
+
+            if($(".jq--image-menu").attr("src") == "assets/menu.png")
+            {
+                $($(".jq--image-menu").attr("src","assets/close.png"));
+            }
+            else
+            {
+                $($(".jq--image-menu").attr("src","assets/menu.png"));
+            }
+            });
+
     });
 })(jQuery);
